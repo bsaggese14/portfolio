@@ -55,10 +55,15 @@ html,body {
 	margin-bottom: 150px;
 	margin-right: 20px;
 	background-color: white;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.8);
-	border-radius:3px;
+	box-shadow: 0px 5px 15px rgba(72, 72, 72, 0.44)
 }
 .projectDiv:hover {cursor: pointer;}
+.projectDivInfo {
+	font-size: 20px;
+    background-color: #F3F3F3;
+    padding:10px;
+
+}
 a {
 	text-decoration: none;
 }
@@ -96,6 +101,17 @@ a {
 	border-radius:100%;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.8);
 	border:solid 3px white
+}
+.skillPic {
+	width: 80px;
+	margin:90px;
+	display:inline-block;
+}
+.contactPic {
+	width:50px;
+	position:relative;
+	top:15px;
+	margin-left:15px;"
 }
 @media(max-width: 640px) {
 	.myPic {
