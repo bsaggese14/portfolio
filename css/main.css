@@ -124,4 +124,7 @@ a {
 		font-size: 60px;
 		padding-top: 80px;
 	}
+	.projectDiv {
+		margin-right: 0px;
+	}
 }
